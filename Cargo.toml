@@ -1,0 +1,13 @@
+[package]
+name = "ld44"
+version = "0.1.0"
+authors = ["Olivier Pinon <oliv.pinon@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+quicksilver = "0.3.11"
+specs = { version = "0.14.3", default-features = false}
+pathfinding = "1.1.12"
+serde = { version = "1.0.90", features = ["derive"] }
+ron = "0.5.1"
+immi = "1.0.4"
